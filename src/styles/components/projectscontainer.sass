@@ -1,0 +1,25 @@
+@use '../variables'
+@use'../mixins'
+
+.projects-container
+    margin-bottom: 1rem
+
+    .projects-grid
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+        gap: 20px
+
+        .project-card
+            border: 1px solid #333
+            border-radius: 8px
+            padding: 2rem
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+
+            h3
+            color: variables.$text-color
+
+            .btn
+                margin-right: .5rem
+
+            
+                
