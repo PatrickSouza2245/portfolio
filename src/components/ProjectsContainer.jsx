@@ -24,7 +24,7 @@ const ProjectsContainer = () => {
       setRepos(res.data)
     } catch (error) {
       console.error("Erro ao buscar repositórios", error)
-      setError("Não foi possivel carregar os repoitórios.")
+      setError("Não foi possivel carregar os repositórios.")
     }
   }
 
